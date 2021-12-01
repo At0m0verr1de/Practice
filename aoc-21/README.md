@@ -1,1 +1,1 @@
-Solutions to the problems(some) of Advent Of Code 2021
+Solutions to the problems(some) of Advent Of Code 2021 (Live)
