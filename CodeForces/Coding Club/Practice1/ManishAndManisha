@@ -1,0 +1,15 @@
+length = int(input())
+ 
+numbers = list(map(int, input().split()))
+totalOp = 0
+ 
+for target in range(max(numbers)+1):
+    found = False
+    for victim in numbers:
+        if victim > target and not found:
+            totalOp += 1
+            found = True
+        elif victim <= target:
+            found = False
+ 
+print(totalOp)
